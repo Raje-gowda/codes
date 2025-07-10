@@ -1,0 +1,43 @@
+### IntelliJ IDEA ###
+### Eclipse ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+bin/
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+
+### VS Code ###
+.vscode/
+
+### Mac OS ###
+.DS_Store
+# IntelliJ project files
+.idea
+.run
+.settings
+*.iml
+.classpath
+.project
+out
+gen
+# MacOS Files
+.DS_Store
+# Generated Artifacts
+node/*
+node_modules/*
+debug.log
+.coverage/
+# Environment Variables
+*.env
+*.fpr
+*.pdf
