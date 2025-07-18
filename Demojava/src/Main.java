@@ -1,32 +1,32 @@
+import javax.annotation.processing.SupportedSourceVersion;
 import java.util.Arrays;
 import java.util.Collections;
-import java.util.LinkedHashSet;
-import java.util.Set;
+import java.util.NavigableMap;
 
-//TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
-// click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Main {
-
     public static void main(String[] args) {
 
-        String name="Bhyrappa";
+        String name = "RAJEGOWDAAJ";
         int count =0;
-        char[] ch1=name.toCharArray();
+        String check="";
+        boolean flag=false;
 
-
-        for (char ch:ch1) {
-            for (int j = 0; j <name.length() ; j++) {
+        for (int i = 0; i <name.length() ; i++) {
+            char ch=name.charAt(i);
+            if(check.indexOf(ch)==-1) {
                 if(name.indexOf(ch)!=name.lastIndexOf(ch)){
-                    count++;
+                    System.out.println(ch);
+                    flag=true;
                     break;
                 }
+                check+=ch;
             }
-            if(count==1){
-                System.out.println(ch);
-            }
+
         }
-        if(count==0){
+        if(!flag){
             System.out.println("-");
         }
+
+
     }
 }
