@@ -6,7 +6,7 @@ import java.util.NavigableMap;
 public class Main {
     public static void main(String[] args) {
 
-        String name = "RAJEGOWDAAJ";
+        String name = "RAJEGOWD";
         int count =0;
         String check="";
         boolean flag=false;
