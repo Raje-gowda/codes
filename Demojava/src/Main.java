@@ -6,12 +6,12 @@ import java.util.NavigableMap;
 public class Main {
     public static void main(String[] args) {
 
-        String name = "RAJEGOWD";
+        String name = "RAJEGOWDA";
         int count =0;
         String check="";
         boolean flag=false;
 
-        for (int i = 0; i <name.length() ; i++) {
+        for (int i = 0; i <name.length(); i++) {
             char ch=name.charAt(i);
             if(check.indexOf(ch)==-1) {
                 if(name.indexOf(ch)!=name.lastIndexOf(ch)){

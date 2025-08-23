@@ -21,13 +21,15 @@ public class Swap_array {
 //
 //        }
         int d= ar.length;
-        System.out.println(ar[d-1]);
+
         // To getting a second highest array
 //        int g= ar.length;
         Arrays.sort(ar,Collections.reverseOrder());
         for (int ch:ar){
             System.out.println(ch);
         }
+
+        System.out.println(ar[d-1]);
 
 
 

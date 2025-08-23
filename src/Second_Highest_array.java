@@ -11,7 +11,7 @@ public class Second_Highest_array {
             sumofDigit=sumofDigit+(num%10);
             num/=10;
         }
-        while (sumofDigit>=10){
+        while (sumofDigit>10){
             int sum=0;
             while (sumofDigit!=0){
                 sum=sum+(sumofDigit%10);
@@ -22,7 +22,7 @@ public class Second_Highest_array {
         System.out.println(sumofDigit);
     }
     public static void main(String[] args) {
-      int num= 12345;
+      int num= 123456;
 //      int Reverse_Number = 0;
 //      while (num!=0){
 //          int Result = num%10;
